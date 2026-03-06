@@ -1,0 +1,85 @@
+/* Properties Page Styles */
+.properties-container {
+  background: #f8f9fa;
+  min-height: calc(100vh - 100px);
+}
+
+.properties-container h1 {
+  color: #2c3e50;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.filter-card {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.filter-card h5 {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.filter-card .form-label {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.filter-card .form-control,
+.filter-card .form-select {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.filter-card .btn {
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.filter-card .btn-primary {
+  background: #667eea;
+  border-color: #667eea;
+}
+
+.filter-card .btn-primary:hover {
+  background: #5568d3;
+  border-color: #5568d3;
+}
+
+.filter-card .btn-outline-secondary {
+  color: #666;
+  border-color: #ddd;
+}
+
+.filter-card .btn-outline-secondary:hover {
+  background: #f8f9fa;
+  border-color: #667eea;
+  color: #667eea;
+}
+
+/* Empty State */
+.properties-container .alert {
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+  .properties-container h1 {
+    font-size: 24px;
+  }
+
+  .filter-card .row {
+    margin-bottom: 10px;
+  }
+
+  .filter-card .col-md-6 {
+    margin-bottom: 10px;
+  }
+}

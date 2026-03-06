@@ -1,0 +1,120 @@
+/* Properties Listing Styles */
+.properties-container {
+  background: #f8f9fa;
+  min-height: calc(100vh - 100px);
+}
+
+.filter-card {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.filter-card h5 {
+  color: #2c3e50;
+}
+
+.property-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.property-card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.property-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.property-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.property-card-link:hover .property-card {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.property-title {
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.property-location {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.property-features {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.feature {
+  font-size: 13px;
+  color: #666;
+}
+
+.feature svg {
+  margin-right: 5px;
+  color: #667eea;
+}
+
+.property-rating {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.property-price {
+  text-align: center;
+}
+
+.property-amenities {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.amenity-tag {
+  background: #e8f0fe;
+  color: #667eea;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+}
+
+/* Image Container for badges */
+.image-container {
+  position: relative;
+}
+
+.category-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+.adtype-badge {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  z-index: 10;
+}

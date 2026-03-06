@@ -1,0 +1,15 @@
+/* Profile Styles */
+.profile-container {
+  background: #f8f9fa;
+  min-height: calc(100vh - 100px);
+}
+
+.profile-container .card {
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
